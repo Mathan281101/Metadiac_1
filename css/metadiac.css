@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif !important;
+}
+.main-navbar {
+  background-color: #ffffff !important;
+}
+/* Products Services Company */
+.main-navbar .nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 10px;
+}
+.btn-shadow {
+  background: #4954c7;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f9f9fe;
+  -webkit-box-shadow: -7px 7px 0px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -7px 7px 0px 0px rgba(0, 0, 0, 1);
+  box-shadow: -7px 7px 0px 0px rgba(0, 0, 0, 1);
+}
+.btn-shadow:hover{
+    box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);;
+}
+.home-banner{
+  background: url(../image/banbg.webp) no-repeat scroll 0 bottom;
+  background-size: cover;
+}
+.banner-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;     
+}
+.banner-content::after{
+  content: "";
+  background: url(/Metadiac/image/Group\ 1622.png) no-repeat scroll 0 0;
+  width: 137px;
+  height: 124px;
+  display: block;
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+}
+.banner-content h2{
+font-size: 76px;
+font-weight: 700;
+line-height: 86px;
+}
+.banner-content h2 span{
+  color: #4954C7;
+}
+.section-blue{
+    background-image: url(../image/Vector.png);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10px 0;
+
+
+}
+.h3clone{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px; /* 122.727% */
+}
+
+.banner-two{
+    padding: 150px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.sec-img{
+  position: relative;
+}
+.sec-img::after{
+  content: '';
+  background: url(../image/star.webp);
+  position: absolute;
+  width: 151px;
+  height: 143px;
+  left: 0;
+  top:200px;
+}
+.sec-img::before{
+  content: '';
+  background: url(../image/about_img.webp);
+  position: absolute;
+  width: 194px;
+  height: 194px;
+  bottom: 0px;
+  right: 0;
+}
+.section-3{
+    background-image: url(../image/design-space-paper-textured-background\ 1.png);
+    margin-top: -100px;
+    padding: 200px 0;
+    margin-bottom: -100px;
+    padding-bottom: 100px;
+
+}
+
+.h2tags{
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 54px;
+    margin-bottom: 20px;
+    color: #23292F;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: #23292F;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.ctabg{
+    background: url(../image/Vector126.png) no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+
+
+}
+.head-text{
+    margin-bottom: 100px;
+
+}
+
+.button-Team{
+    background-color: #E36429;
+    box-shadow: 10px 10px 0px black;
+    width: 293px;
+    height: 79px;
+    margin-top: -100px;
+
+}
+.button-Team:hover{
+    box-shadow: -10px 10px 0px black;
+}
+.background-img{
+    background-image: url(../image/design-space-paper-textured-background\ 1.png);
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+
+
+    
+}
+.h3tag{
+  color: #23292F;
+text-align: center;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: 54px;
+}
+.cfcl{
+  margin-top: -50px;
+}
+.card-btn{
+    background: #4954C7;
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+    color: #ffffff !important;
+    width: 242px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-btn,.first-card:hover{
+  box-shadow: -10px 10px 0px 0px rgba(0,0,0,1);
+  background-color:#4954C7;
+}
+.first-card{
+    margin-top: 20px;
+    margin-right: -30px;
+    border-radius: 0;
+    padding-left: 50px;
+    color: #23292F;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+.first-card:hover{
+    background-color: #E36429;
+    color: #ffffff;
+    
+}
+.card-center{
+  margin-top: 20px;
+  margin-right: -30px;
+  border-radius: 0;
+  padding-left: 50px;
+  color: #23292F;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+  padding-bottom: 30px;
+
+  
+}
+.card-center:hover{
+  background-color: #E36429;
+  color:#ffffff;
+}
+.third-card{
+  margin-top: 20px;
+  margin-right: -30px;
+  border-radius: 0;
+  padding-left: 50px;
+  color: #23292F;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  
+}
+.card:hover button{
+  background: #f9f9fe;
+  color: #E36429 !important;
+}
+.third-card:hover{
+  background-color: #E36429;
+  color:#ffffff;
+  
+}
+
+.benefits{
+  background: url(../image/Isolation_Mode.png);
+  background-size: cover;
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+
+}
+.benefits h2{
+  padding-bottom: 50px;
+}
+.h2ben {
+  color: #23292F;
+text-align: center;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: 54px;
+}
+.b-card{
+  border: 1px solid blueviolet;
+}
+.b-card:hover{
+  background-color: #4954c7;
+  color: #ffffff;
+}
+
+.clone-app{
+  background: url(../image/design-space-paper-textured-background\ 1.png) no-repeat 0 0;
+  background-size: cover;
+  padding: 100px 0;
+  position: relative;
+
+}
+.localBitcoin{
+  background: url(../image/Vector\ 130.png) no-repeat 0 0;
+  background-size: cover;
+  padding: 50px 0;
+  position: relative;
+  margin-top: -50px;
+  z-index: 1;
+
+
+
+}
+.localBitcoin h3{
+  color: #ffffff;
+}
+.card-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+
+}
+.demo-btn{
+  background-color: #E36429;
+  box-shadow: 10px 10px 0 black;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 30px;
+
+
+}
+.demo-btn:hover{
+  box-shadow: -10px 10px black;
+}
+.three-cards{
+  background: url(../image/maskgroup.png) no-repeat scroll 0 0;
+  background-size: cover;
+  padding: 200px 0;
+  position: relative;
+  z-index: 1;
+  margin-top: -190px;
+}
+.three-cards h2{
+  color: #FFF;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.last-six-cards{
+background-image: url(../image/mask_group.png);
+background-size: 100% 100%;
+margin-top: -220px;
+padding-top: 100px !important;
+position: relative;
+
+background-repeat: no-repeat;
+}
+.card-main{
+  position: relative;
+  margin-top: 50px;
+
+}
+.card-main::before{
+  content:"";
+  position: absolute;
+  width: 80%;
+  height: 98%;
+  border: 1px solid #fff;
+  right: 10%;
+  display: block;
+}
+.card-main2{
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.card-main2::before{
+  content:"";
+  position: absolute;
+  width: 80%;
+  height: 98%;
+  border: 1px solid #fff;
+  right: 10%;
+  display: block;
+}
+.round-number{
+  background: #000000;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 94px;
+  height: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-size: 44px;
+  font-weight: 300;
+  margin: 0 auto;
+  position: relative;
+  top: -40px;
+}
+.content-box{
+  background: blueviolet;
+  padding: 30px;
+  position: relative;
+  top: -25px;
+}
+.content-box h3{
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.content-box p{
+  color: #fff;
+  font-size: 13px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.content-box:hover{
+    background-color: #E36429;
+}
+
+
+
+
+
+
+.last{
+  background: url(../image/design-space-paper-textured-background\ 4.png) no-repeat;
+  padding: 100px 0;
+  background-size: cover;
+  position: relative;
+  margin-top: -200px;
+  z-index: -1;
+}
+.last-banner{
+  
+  background: url(../image/choose_bg.webp) no-repeat center center;
+  min-height: 325px;
+  padding: 120px 100px 0;
+  background-size: 100%;
+}
